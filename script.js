@@ -18,5 +18,8 @@ textarea.addEventListener("input", () => {
     currentCount.style.color = "red";
   } else {
     counter.style.color = "white";
+    counter2.style.color = "white";
+    remainCount.style.color = "white";
+    currentCount.style.color = "white";
   }
 });
