@@ -3,22 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Character Counter</title>
+    <title>Real-time Character Counter</title>
     <script src="./Assets/jquery-3.7.1.js"></script>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <h1>Real-time Character Counter</h1>
     <div class="container">
         <textarea id="textarea" placeholder="Type here..." maxlength="50"></textarea>
         <div id="counter">
             <span id="current">0</span> / 50 characters
-            <span id="remain">50</span> / 50 characters
         </div>
-        <div id="counter">
-            <span>Total Character : 50</span>
+        <div id="counter-remaining">
+            <span id="remain">50</span> / 50 characters remaining
+        </div>
+        <div id="total">
+            <span>Total Characters: 50</span>
         </div>
     </div>
-    
     <script src="script.js"></script>
 </body>
 </html>
